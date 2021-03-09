@@ -5,6 +5,8 @@
 
 실제 페이지 주소:
 http://www.krinfra.co.kr/A100/gputest/form.asp
+노션 포트폴리오 주소:
+https://www.notion.so/Web-Quiz-Survey-b394d498b83c48a888eb02664a881e56
 
 # 요구사항:
 
@@ -44,13 +46,6 @@ http://www.krinfra.co.kr/A100/gputest/form.asp
 
 ## 첫 페이지:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d098da5-acfb-4751-afb8-00743d3f2777/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d098da5-acfb-4751-afb8-00743d3f2777/Untitled.png)
-
-디자인 작업 전 초안
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e4de1e7-7b98-4930-bb4f-060fa2f1a4b3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e4de1e7-7b98-4930-bb4f-060fa2f1a4b3/Untitled.png)
-
-디자인 후 모습
 
 - 위와 같이 첫 페이지의 맨 위에는 당사 제품 링크들이 나열되어 있고, 가운데에는 상품 설명과 함께, '퀴즈시작' 및 '제품공부' 사이트 링크 버튼이 있습니다.
 
@@ -101,18 +96,6 @@ index.asp 또한 간단하게 작성하였습니다.
 - javascript와 button을 통해 버튼클릭 시, 페이지를 이동하여 퀴즈를 풀거나, 공부를 할 수 있도록 하였습니다.
 
 ## 퀴즈 페이지
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e50d117e-2786-49a4-9fa7-b49c278da97a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e50d117e-2786-49a4-9fa7-b49c278da97a/Untitled.png)
-
-디자인 전 초안
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54201d70-3503-4e8e-872b-6525babe202f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54201d70-3503-4e8e-872b-6525babe202f/Untitled.png)
-
-디자인 후 모습
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa88a8fb-64cd-4c52-97b3-9467429aec6d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa88a8fb-64cd-4c52-97b3-9467429aec6d/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9727bd0-04d2-451d-ba4f-d8fee855c94d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9727bd0-04d2-451d-ba4f-d8fee855c94d/Untitled.png)
 
 ```bash
 // 문제 객체(생성자 함수)
@@ -223,37 +206,15 @@ for (var i = 0; i < btn.length; i++) {
 
 ## 퀴즈 완료 후, 모습
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a970f06-1d8d-450e-9807-57e8d5f8d38d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a970f06-1d8d-450e-9807-57e8d5f8d38d/Untitled.png)
-
-디자인 전 초안
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ade0e3b9-d828-4435-9e97-aa615ff511e6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ade0e3b9-d828-4435-9e97-aa615ff511e6/Untitled.png)
-
-디자인 후 모습
-
 - 퀴즈를 다 풀게 되면 위와 같은 화면이 출력됩니다.
     - 점수에 따라 글귀가 달라지며, 버튼또한 출력/미출력이 다릅니다.
     - 재도전을 클릭하면 다시 첫 페이지로 돌아가게 됩니다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5f4e5f3-40a8-4c71-91f7-d6d87cdb7a0a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5f4e5f3-40a8-4c71-91f7-d6d87cdb7a0a/Untitled.png)
-
-디자인 전 초안
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcf36eaa-7826-49ca-a52a-3cbdabe8e517/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcf36eaa-7826-49ca-a52a-3cbdabe8e517/Untitled.png)
-
-디자인 후 모습
-
-- 상품응모 설문 페이지입니다. (디자인 전이라 많이 열악합니다..ㅎ.. 디자이너와 함께 작업 후 모습이 훨씬 깔끔해 보이네요.)
-
 ## DB
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/469d14e6-79e7-45f8-b5f9-e898224632c1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/469d14e6-79e7-45f8-b5f9-e898224632c1/Untitled.png)
 
 - Database의 모습입니다.
     - RegisterNum 은 Primary Key로써 열 속성의 'ID 사양'을 '예'로 해주고, 시드와 증가값을 1로 맞추어 주어 자동으로 1에서 증가하여 값이 증가하여 주어지도록 하였습니다.
     - RegDate 또한, 등록일이기 때문에 (getDate())을 사용하여 DB에 값이 입력될 때의 Datetime을 자동으로 넣어주게 하였습니다.
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ebd7341-1358-4b47-90b5-8c886a5a2f8f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ebd7341-1358-4b47-90b5-8c886a5a2f8f/Untitled.png)
 
     들어간 값들의 모습
 
