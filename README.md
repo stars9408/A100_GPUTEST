@@ -8,6 +8,8 @@ http://www.krinfra.co.kr/A100/gputest/form.asp
 노션 포트폴리오 주소:
 https://www.notion.so/Web-Quiz-Survey-b394d498b83c48a888eb02664a881e56
 
+https://stars9408.github.io/A100_GPUTEST/
+
 # 요구사항:
 
 1. 취급하는 제품에 대한 마케팅 활동을 위해 직접 아이디어를 내어 MBTI 혹은 퀴즈 형태로 사은품을 증정하는 방식을 웹으로 개발해야합니다.
